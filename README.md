@@ -30,12 +30,12 @@ OLAS Autonomy is a project for managing and storing documents using IPFS and Eth
     CONTRACT_ADDRESS=0xYourContractAddress
     CONTRACT_ABI='[Your Contract ABI]'
     PRIVATE_KEY=your_private_key
-    LOG_FILE_PATH=/app/logs/monitor.log
+    LOG_FILE_PATH=/app/logs/manage.log
     ```
     Replace the placeholders with your actual values:
     - `YOUR_PROJECT_ID`: Your Tenderly project ID.
     - `0xYourContractAddress`: The deployed contract address.
-    - `[Your Contract ABI]`: The ABI of your smart contract as a JSON string.
+    - `IPFS_URL` : http://localhost:5001.
     - `your_private_key`: Your Ethereum private key.
     - `/app/logs/monitor.log`: Path to the log file for the monitor agent.
 
