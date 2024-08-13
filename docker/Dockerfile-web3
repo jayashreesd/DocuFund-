@@ -1,0 +1,6 @@
+FROM node:14
+
+# Install web3.js
+RUN npm install -g web3
+
+ENTRYPOINT ["node", "-e", "require('web3')"]
